@@ -9,7 +9,7 @@ struct building example(){
     char *nyc[3];
     nyc[0] = "freedom tower";
     nyc[1] = "empire state";
-    nyc[2] = "chrystler";
+    nyc[2] = "chrysler";
     
     tower.name = nyc[rand() % 3];
     tower.floors = rand() % 100;

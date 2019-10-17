@@ -7,7 +7,7 @@ int main()
 {
     struct building ex = example();
     printBuilding(&ex);
-    modifyBuilding(&ex, "chrystler", 77);
+    modifyBuilding(&ex, "chrysler", 77);
     printBuilding(&ex);
     return 0;
 }
